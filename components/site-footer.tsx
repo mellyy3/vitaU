@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { PhoneCall, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import Image from "next/image"
 
 export function SiteFooter() {
   return (
@@ -11,7 +12,7 @@ export function SiteFooter() {
           {/* Company Info */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold text-primary">VITAHOME CARE</span>
+              <Image src="/images/logo.jpg" alt="VITAHOME CARE Logo" width={150} height={50} className="h-12 w-auto" />
             </Link>
             <p className="text-sm">
               Providing compassionate domiciliary care services across England and Wales since 2010.

@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { PhoneCall, Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -14,7 +15,7 @@ export function SiteHeader() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold text-primary">VITAHOME CARE</span>
+              <Image src="/images/logo.jpg" alt="VITAHOME CARE Logo" width={120} height={40} className="h-10 w-auto" />
             </Link>
           </div>
 
