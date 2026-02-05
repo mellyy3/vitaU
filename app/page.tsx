@@ -29,7 +29,7 @@ export default function Home() {
             </div>
             <div className="relative hidden md:block">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/hero-caregiver.jpg"
                 alt="Caregiver with elderly person"
                 width={600}
                 height={500}
@@ -203,7 +203,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=500&width=600"
+                  src="/images/caregiver-helping.jpg"
                   alt="Caregiver helping elderly person"
                   width={600}
                   height={500}
@@ -215,7 +215,7 @@ export default function Home() {
                   "The care and support provided by VITAHOME CARE has been exceptional. They've helped my mother
                   maintain her independence."
                 </p>
-                <p className="mt-4 font-semibold">- Sarah T., Client's Daughter</p>
+                <p className="mt-4 font-semibold">— Sarah T., Client's Daughter</p>
               </div>
             </div>
           </div>
